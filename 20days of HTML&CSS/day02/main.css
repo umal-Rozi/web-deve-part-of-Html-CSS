@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consoles;
+}
+.container{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.container .card{
+    position: relative;
+    cursor: pointer;
+}
+.container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translate(100px);
+    
+}
+.container .card:hover .face.face1{
+    background: rgb(245, 8, 166);
+    transform: translate(0);
+
+}
