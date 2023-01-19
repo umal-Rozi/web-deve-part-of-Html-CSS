@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background: lightslategray;
+    padding: 1rem;
+    height: 100vh;
+}
+
+ nav ul{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li{
+    margin: 0 1rem;
+}
+header h1{
+    font-size: 5rem;
+}
+header p{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+.rotate{
+    margin-top: 2rem;
+    font-size: 3rem;
+    opacity: 0.4;
+}
